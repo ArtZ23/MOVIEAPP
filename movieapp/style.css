@@ -1,0 +1,94 @@
+#logo {
+    height: 60px;
+    margin-right: 10px;
+    margin-top:5px;
+    align-content: center;
+    justify-content: center;
+}
+.navbar{
+    background-image: url("src/navbar-bg.png");
+    height: 75px;
+   
+
+}
+
+body {
+    
+    background-image: url("src/back.jfif");
+    background-attachment: fixed !important;
+ 
+}
+.navbar-header{
+    color:#b2bec3;
+   
+    
+}
+.navbar-header p{
+    color:#000;
+   font-family: 'Montserrat', sans-serif;
+    color: white !important;
+}
+
+.form-control{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.search-box button {
+    
+    margin-left: 45%;
+    margin-bottom: 20px;
+    
+}
+.card {
+
+    margin-right: 25px !important;
+    width: 20rem;
+    margin-bottom:15px;
+}
+.jumbotron {
+    padding-top: 15px;
+}
+#movie{
+    margin-top:25px;
+}
+#movie h1 {
+    margin-bottom: 5px;
+    margin-top:25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#movie a{
+    margin-top: 15px;
+}
+
+
+#movie ul li {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    background-color: transparent !important;
+    border: none !important;
+    color: #000 !important;
+   
+}
+
+#movie .ratelogo {
+    height: 50px;
+  
+}
+#movie .rate {
+    position: absolute;
+    right: 20px;
+    width: 300px;
+}
+#movie .rate p {
+    font-family: 'Noto Sans', sans-serif;
+    padding-top:8px;
+    margin-left: 10px;
+}
+#submit:hover {
+    background-color:  rgb(79, 79, 79);
+}
+#submit:active {
+    background-color: rgb(194, 194, 194);
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+  }
